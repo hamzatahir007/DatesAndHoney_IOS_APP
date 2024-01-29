@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Dates And Honey</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.604072040126-regjmegfmseor9i77qt7k12irl3is0je</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+<string>Allow capturing photos to create and share moments in your Dates and Honey app.</string>
+
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>Enhance your experience by providing personalized event recommendations and finding nearby dates in the Dates and Honey app.</string>
+
+<key>NSLocationAlwaysUsageDescription</key>
+<string>Enable personalized recommendations and event suggestions based on your location in the Dates and Honey app.</string>
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Use your location to recommend nearby events and matches for a better Dates and Honey experience.</string>
+
+<key>NSMicrophoneUsageDescription</key>
+<string>Allow access to the Microphone for recording audio notes or messages in the Dates and Honey app.</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Grant access to the photo library for selecting images to share with your matches on Dates and Honey.</string>
+
+<key>NSCalendarsUsageDescription</key>
+<string>We need access to your calendars to schedule events.</string>
+
+<key>NSContactsUsageDescription</key>
+<string>We require access to your contacts for social sharing features.</string>
+
+<key>NSBluetoothPeripheralUsageDescription</key>
+<string>Access to Bluetooth peripherals is necessary for connecting to devices.</string>
+
+<key>NSAppleMusicUsageDescription</key>
+<string>Access to Apple Music data is needed to provide personalized recommendations.</string>
+
+<key>NSMotionUsageDescription</key>
+<string>Access to motion data is required for fitness tracking and activity analysis.</string>
+
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>We use speech recognition to provide hands-free control options.</string>
+
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>Continuous access to Bluetooth data is necessary for real-time device connectivity.</string>
+
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Fontisto.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

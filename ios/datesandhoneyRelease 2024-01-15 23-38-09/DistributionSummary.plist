@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>datesandhoney.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<false/>
+			<key>buildNumber</key>
+			<string>2</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>2BDD7C0E88CC07A9E380212E13E170F9F0604C09</string>
+				<key>dateExpires</key>
+				<string>18/03/2024</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>buildNumber</key>
+					<string>0.12.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2BDD7C0E88CC07A9E380212E13E170F9F0604C09</string>
+						<key>dateExpires</key>
+						<string>18/03/2024</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>hermes.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>X7XLVJ2B5M</string>
+						<key>name</key>
+						<string>Dates And Honey LLC</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>0.12.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>X7XLVJ2B5M.com.datesandhoney</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.applesignin</key>
+				<array>
+					<string>Default</string>
+				</array>
+				<key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>X7XLVJ2B5M</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>datesandhoney.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ecac3b86-b3d2-4ca3-87ec-98dbac784c3c</string>
+				<key>dateExpires</key>
+				<string>18/03/2024</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.datesandhoney</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>X7XLVJ2B5M</string>
+				<key>name</key>
+				<string>Dates And Honey LLC</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
